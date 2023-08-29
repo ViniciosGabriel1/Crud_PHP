@@ -24,6 +24,7 @@ if ($sql->rowCount() > 0) {
         <th>id</th>
         <th>Nome</th>
         <th>Email</th>
+        <th>Senha</th>
     </tr>
     <?php foreach ($lista as $usuario) : ?>
     <!-- Itera sobre o array $lista e exibe os dados de cada usuário na tabela -->
